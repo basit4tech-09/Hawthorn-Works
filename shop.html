@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — Hawthorn Works</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/shop.css" />
+  <script src="https://kit.fontawesome.com/294747f67c.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Hawthorn<span>Works</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <p class="page-label">Our Listings</p>
+      <h1>Find Your Office</h1>
+      <p>Handpicked used offices — every one smart-automation ready.</p>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section class="filter-bar">
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="small">Small</button>
+      <button class="filter-btn" data-filter="medium">Medium</button>
+      <button class="filter-btn" data-filter="large">Large</button>
+    </div>
+  </section>
+
+  <!-- SHOP GRID -->
+  <section class="shop-section">
+    <div class="shop-container">
+      <div class="shop-grid">
+
+        <!-- CARD 1 -->
+        <div class="office-card" data-size="small">
+          <div class="card-image">
+            <span class="card-badge">Available</span>
+          </div>
+          <div class="card-body">
+            <article class="product-card" data-name="The Compact" data-price="$1,200/mo" data-img="images/compact.jpg"
+              data-desc="A focused single-person office with a clean layout. Perfect for deep work.">
+              <div class="card-top">
+                <h3>The Compact</h3>
+                <span class="card-size">Small</span>
+              </div>
+              <p class="card-desc">A focused single-person office with a clean layout. Perfect for deep work.</p>
+              <ul class="card-features">
+                <li>⚡ Smart lighting</li>
+                <li>🌡️ Climate control</li>
+                <li>🔒 Smart lock entry</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">$1,200<span>/mo</span></span>
+                <button class="btn-primary quick-view">View Office</button>
+              </div>
+          </div>
+        </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <div class="office-card" data-size="medium">
+          <article class="product-card" data-name="The Standard" data-price="$2100/mo" data-img="images/standard.jpg"
+            data-desc="A versatile mid-size office ideal for small teams or executive setups.">
+
+            <div class="card-image img-2">
+              <span class="card-badge">Available</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3>The Standard</h3>
+                <span class="card-size">Medium</span>
+              </div>
+              <p class="card-desc">A versatile mid-size office ideal for small teams or executive setups.</p>
+              <ul class="card-features">
+                <li>⚡ Smart lighting</li>
+                <li>🌡️ Climate control</li>
+                <li>🔒 Smart lock entry</li>
+                <li>📡 Automated blinds</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">$2,100<span>/mo</span></span>
+                <button class="btn-primary quick-view">View Office</button>
+              </div>
+            </div>
+        </div>
+        </article>
+
+
+        <!-- CARD 3 -->
+        <div class="office-card" data-size="large">
+          <article class="product-card" data-name="The Executive" data-price="$3,800/mo" data-img="images/executive.jpg"
+            data-desc="A spacious executive office built for leadership. Fully loaded automation suite.">
+            <div class="card-image img-3">
+              <span class="card-badge badge-sold">Sold Out</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3>The Executive</h3>
+                <span class="card-size">Large</span>
+              </div>
+              <p class="card-desc">A spacious executive office built for leadership. Fully loaded automation suite.</p>
+              <ul class="card-features">
+                <li>⚡ Smart lighting</li>
+                <li>🌡️ Climate control</li>
+                <li>🔒 Smart lock entry</li>
+                <li>📡 Automated blinds</li>
+                <li>🔊 Smart audio system</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">$3,800<span>/mo</span></span>
+                <a href="#" class="btn-primary btn-disabled">Unavailable</a>
+              </div>
+            </div>
+        </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <div class="office-card" data-size="small">
+          <article class="product-card" data-name="The Solo" data-price="$950/mo" data-img="images/solo.jpg"
+            data-desc="Minimalist and efficient. Built for the professional who values simplicity.">
+            <div class="card-image img-4">
+              <span class="card-badge">Available</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3>The Solo</h3>
+                <span class="card-size">Small</span>
+              </div>
+              <p class="card-desc">Minimalist and efficient. Built for the professional who values simplicity.</p>
+              <ul class="card-features">
+                <li>⚡ Smart lighting</li>
+                <li>🔒 Smart lock entry</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">$950<span>/mo</span></span>
+                <button class="btn-primary quick-view">View Office</a>
+              </div>
+            </div>
+        </div>
+        </article>
+
+        <!-- CARD 5 -->
+        <div class="office-card" data-size="medium">
+          <article class="product-card" data-name="The Collaborative" data-price="$2600/mo"
+            data-img="images/collaborative.jpg"
+            data-desc="Designed for teams up to 5. Open layout with smart zone controls.">
+            <div class="card-image img-5">
+              <span class="card-badge">Available</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3>The Collaborative</h3>
+                <span class="card-size">Medium</span>
+              </div>
+              <p class="card-desc">Designed for teams up to 5. Open layout with smart zone controls.</p>
+              <ul class="card-features">
+                <li>⚡ Smart lighting</li>
+                <li>🌡️ Climate control</li>
+                <li>🔒 Smart lock entry</li>
+                <li>📡 Automated blinds</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">$2,600<span>/mo</span></span>
+                <button class="btn-primary quick-view">View Office</button>
+
+              </div>
+            </div>
+        </div>
+        </article>
+
+        <!-- CARD 6 -->
+        <div class="office-card" data-size="large">
+          <article class="product-card" data-name="The Suite" data-price="$5200"
+            data-img="images/suite.jpg"
+            data-desc="Full-floor suite with conference room and complete automation integration.">
+            <div class="card-image img-6">
+              <span class="card-badge">Available</span>
+            </div>
+            <div class="card-body">
+              <div class="card-top">
+                <h3>The Suite</h3>
+                <span class="card-size">Large</span>
+              </div>
+              <p class="card-desc">Full-floor suite with conference room and complete automation integration.</p>
+              <ul class="card-features">
+                <li>⚡ Smart lighting</li>
+                <li>🌡️ Climate control</li>
+                <li>🔒 Smart lock entry</li>
+                <li>📡 Automated blinds</li>
+                <li>🔊 Smart audio system</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">$5,200<span>/mo</span></span>
+                <button class="btn-primary quick-view">View Office</button>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </div>
+  </section>
+  <!-- Quick view modal placeholder (JS will toggle) -->
+  <div class="modal" id="quick-modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button class="modal-close" id="modal-close">✕</button>
+      <img id="modal-img" src="assets/images/product-placeholder.jpg" alt="">
+      <h3 id="modal-name">Model</h3>
+      <p id="modal-price"></p>
+      <p id="modal-desc">Short description goes here.</p>
+      <a href="mailto:basit4tech@gmail.com" class="btn btn-primary">Contact</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Hawthorn<span>Works</span></a>
+        <p>Modern offices. Smart living.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Get In Touch</h4>
+        <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+         <a href="https://wa.me/2347062403876?text=Hello,%20which%20office%20would%20you%20like%20to%20get." target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="mailto:basit4tech@gmail.com">support@hawthornworks.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+     <p>&copy; <span id="current-year"></span> Hawthorn Works. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/shop.js"></script>
+
+</body>
+
+</html>
