@@ -1,4 +1,4 @@
-// ── Category Filter ──
+// ── Category Filter 
 const filterBtns = document.querySelectorAll('.filter-btn');
 const blogCards  = document.querySelectorAll('.blog-card');
 const featuredPost = document.querySelector('.blog-featured');
@@ -30,7 +30,7 @@ filterBtns.forEach(btn => {
   });
 });
 
-// ── Newsletter Form Feedback ──
+/*── Newsletter Form Feedback ──
 const newsletterForm = document.getElementById('newsletter-form');
 if (newsletterForm) {
   newsletterForm.addEventListener('submit', (e) => {
@@ -38,4 +38,4 @@ if (newsletterForm) {
     newsletterForm.innerHTML =
       '<p class="form-success">✅ You\'re subscribed! Welcome to Hawthorn Works.</p>';
   });
-}
+}*/
