@@ -21,9 +21,12 @@
   letter-spacing: -1px;
   margin-bottom: 0.75rem;
 }
+.page-hero-content h1 span{
+  color:var(--steel-blue) ;
+}
 
 .page-hero-content p {
-  font-size: 1rem;
+  font-size: 1.0rem;
   color: #b0b0b0;
 }
 
@@ -115,24 +118,8 @@
   position: relative;
 }
 
-.card-image.img-2 {
-  background-color: #c8ced4;
-}
-
-.card-image.img-3 {
-  background-color: #c2c8cc;
-}
-
-.card-image.img-4 {
-  background-color: #d4d0cb;
-}
-
-.card-image.img-5 {
-  background-color: #cdd4d0;
-}
-
-.card-image.img-6 {
-  background-color: #c8cdd4;
+.card-image{
+  background-image: #c8c8c8;
 }
 
 /* ── Badge ── */
