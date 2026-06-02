@@ -291,7 +291,7 @@
 
 /* ========== CTA BANNER ========== */
 .cta-banner {
-  background: linear-gradient(135deg, var(--steel-blue), var(--steel-blue-dark));
+  background: var(--steel-blue-dark);
   padding: 5rem 2rem;
   text-align: center;
 }
@@ -321,7 +321,8 @@
 }
 
 .cta-banner .btn-primary:hover {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0da;
+  
 }
 /* ========== RESPONSIVE ========== */
 @media (max-width: 1024px) {
